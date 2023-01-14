@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PagesComponent } from './pages/pages.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CafeOhLaLa';
+  PagesComponent = PagesComponent
 }
