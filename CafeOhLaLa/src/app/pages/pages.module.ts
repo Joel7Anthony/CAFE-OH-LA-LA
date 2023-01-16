@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { InvoiceComponent } from './invoice/invoice.component';
 import { DessertComponent } from './catalogue/dessert/dessert.component';
+import { CashComponent } from './cash/cash.component';
 
 
 
@@ -11,7 +12,8 @@ import { DessertComponent } from './catalogue/dessert/dessert.component';
   declarations: [
     DashboardComponent,
     InvoiceComponent,
-    DessertComponent
+    DessertComponent,
+    CashComponent
   ],
   imports: [
 
