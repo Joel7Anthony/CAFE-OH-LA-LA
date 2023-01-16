@@ -7,7 +7,8 @@ module.exports = {
       blanco: "#ffffff",
       chocolate: "#543217",
       crema: "#c0904b",
-      chocolate2: "https://fondosmil.com/fondo/15481.jpg"
+      chocolate2: "#7B5333",
+      chocolate3: "#432813"
     }
   },
   plugins: [],

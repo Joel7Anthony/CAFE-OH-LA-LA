@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
+import { DessertComponent } from './pages/catalogue/dessert/dessert.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { InvoiceComponent } from './pages/invoice/invoice.component';
 import { PagesRoutingModule } from './pages/pages-routing.module';
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'login', component:LoginComponent},
   {path: 'register', component:RegisterComponent},
   {path: 'invoice', component: InvoiceComponent},
+  {path: 'dessert', component: DessertComponent},
 
   {path: '', redirectTo: '/dashboard/', pathMatch: 'full'},
 
