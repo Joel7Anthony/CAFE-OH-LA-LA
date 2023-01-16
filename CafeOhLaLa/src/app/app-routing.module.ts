@@ -11,21 +11,21 @@ import { PagesModule } from './pages/pages.module';
 
 
 const routes: Routes = [
-  {path: 'login', component:LoginComponent},
-  {path: 'register', component:RegisterComponent},
-  {path: 'invoice', component: InvoiceComponent},
-  {path: 'dessert', component: DessertComponent},
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'invoice', component: InvoiceComponent },
+  { path: 'dessert', component: DessertComponent },
 
-  {path: '', redirectTo: '/dashboard/', pathMatch: 'full'},
+  { path: '', redirectTo: '/dashboard/', pathMatch: 'full' },
 
   //{path: '**', component: NotFoundComponent}
 ];
 
 @NgModule({
   imports: [
-  RouterModule.forRoot(routes),
-  PagesRoutingModule
-],
+    RouterModule.forRoot(routes),
+    PagesRoutingModule
+  ],
   exports: [
     RouterModule
   ]
