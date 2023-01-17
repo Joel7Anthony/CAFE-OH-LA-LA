@@ -5,6 +5,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { DessertComponent } from './pages/catalogue/dessert/dessert.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { InvoiceComponent } from './pages/invoice/invoice.component';
+import { OrderComponent } from './pages/order/order.component';
 import { PagesRoutingModule } from './pages/pages-routing.module';
 import { PagesModule } from './pages/pages.module';
 //import { NotFoundComponent } from './not-found/not-found.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'invoice', component: InvoiceComponent },
   { path: 'dessert', component: DessertComponent },
+  {path: 'order', component: OrderComponent},
 
   { path: '', redirectTo: '/dashboard/', pathMatch: 'full' },
 

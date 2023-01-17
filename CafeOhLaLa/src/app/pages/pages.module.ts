@@ -5,6 +5,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { InvoiceComponent } from './invoice/invoice.component';
 import { DessertComponent } from './catalogue/dessert/dessert.component';
 import { CashComponent } from './cash/cash.component';
+import { OrderComponent } from './order/order.component';
 
 
 
@@ -13,14 +14,16 @@ import { CashComponent } from './cash/cash.component';
     DashboardComponent,
     InvoiceComponent,
     DessertComponent,
-    CashComponent
+    CashComponent,
+    OrderComponent
   ],
   imports: [
 
     RouterModule,
   ],
   exports:[
-    DashboardComponent
+    DashboardComponent,
+    OrderComponent
   ]
 })
 export class PagesModule { }
