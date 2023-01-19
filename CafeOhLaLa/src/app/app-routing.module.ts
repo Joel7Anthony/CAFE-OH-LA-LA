@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
+import { BreadComponent } from './pages/catalogue/bread/bread.component';
 import { DessertComponent } from './pages/catalogue/dessert/dessert.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { InvoiceComponent } from './pages/invoice/invoice.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'invoice', component: InvoiceComponent },
   { path: 'dessert', component: DessertComponent },
   {path: 'order', component: OrderComponent},
+  {path: 'bread', component: BreadComponent},
 
   { path: '', redirectTo: '/dashboard/', pathMatch: 'full' },
 
