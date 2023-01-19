@@ -6,6 +6,7 @@ import { InvoiceComponent } from './invoice/invoice.component';
 import { DessertComponent } from './catalogue/dessert/dessert.component';
 import { CashComponent } from './cash/cash.component';
 import { OrderComponent } from './order/order.component';
+import { BreadComponent } from './catalogue/bread/bread.component';
 
 
 
@@ -15,7 +16,8 @@ import { OrderComponent } from './order/order.component';
     InvoiceComponent,
     DessertComponent,
     CashComponent,
-    OrderComponent
+    OrderComponent,
+    BreadComponent
   ],
   imports: [
 
