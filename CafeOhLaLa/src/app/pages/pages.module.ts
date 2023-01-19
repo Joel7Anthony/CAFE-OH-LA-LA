@@ -4,6 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { InvoiceComponent } from './invoice/invoice.component';
 import { DessertComponent } from './catalogue/dessert/dessert.component';
+import { CashComponent } from './cash/cash.component';
+import { OrderComponent } from './order/order.component';
+import { BreadComponent } from './catalogue/bread/bread.component';
 
 
 
@@ -11,14 +14,18 @@ import { DessertComponent } from './catalogue/dessert/dessert.component';
   declarations: [
     DashboardComponent,
     InvoiceComponent,
-    DessertComponent
+    DessertComponent,
+    CashComponent,
+    OrderComponent,
+    BreadComponent
   ],
   imports: [
 
     RouterModule,
   ],
   exports:[
-    DashboardComponent
+    DashboardComponent,
+    OrderComponent
   ]
 })
 export class PagesModule { }
