@@ -8,7 +8,10 @@ module.exports = {
       chocolate: "#543217",
       crema: "#c0904b",
       chocolate2: "#7B5333",
-      chocolate3: "#432813"
+      chocolate3: "#432813",
+      rojo: "#FF1A00",
+      negro: "#000000",
+      blanco2: "#DEDEDE"
     }
   },
   plugins: [],

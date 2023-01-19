@@ -113,7 +113,7 @@ h3 {
 }
 
 .contenedor-item:hover .contenedor-text{
-    transform: translateY(10%); /*transicion*/
+    transform: translate(100%); /* transicion */
     transform: scale(1.05); /*transicion*/
 }
 
