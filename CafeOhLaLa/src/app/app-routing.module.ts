@@ -4,6 +4,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { BreadComponent } from './pages/catalogue/bread/bread.component';
 import { DessertComponent } from './pages/catalogue/dessert/dessert.component';
+import { DrinkComponent } from './pages/catalogue/drink/drink.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { InvoiceComponent } from './pages/invoice/invoice.component';
 import { OrderComponent } from './pages/order/order.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'dessert', component: DessertComponent },
   {path: 'order', component: OrderComponent},
   {path: 'bread', component: BreadComponent},
+  {path: 'drink', component: DrinkComponent},
 
   { path: '', redirectTo: '/dashboard/', pathMatch: 'full' },
 
